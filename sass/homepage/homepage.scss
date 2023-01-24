@@ -8,120 +8,166 @@
 }
 
 .container-fluid{
-  // border: 2px solid red;
   margin: 0;
   padding: 0;
-}
 
-header{
-  border: 2px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  padding: 0.5rem 3rem;
-  background-color: $primaryColor;
-  color: #FFFFFF;
-
-  @media(max-width:900px){
-    justify-content: center;
-  }
-
-  h1{
-    @media(max-width: 346px){
-      font-size: 1.39rem;
-    }
-    @media(max-width: 300px){
-      font-size: 1.25rem;
-    }
-  }
-
-}
-
-.cover-content{
-  // border: 2px solid black;
-  display: flex;
-  width: 100%;
-  background-color: $primaryColor;
-  @media(max-width:710px){
-    flex-direction: column;
-  }
-  .image-cover-content{
+  header{
     display: flex;
     align-items: center;
-    justify-content: center;
-    border: 2px solid red;
-    width: 50%;
-    height: 100%;
-    @media(max-width:710px){
-      width: 100%;
-    }
-
-    img{
-      @media(max-width:900px){
-        width: 100%;
-      }
-      @media(max-width:710px){
-        width: 500px;
-      }
-      @media(max-width:500px){
-        width: 100%;
-      }
-    }
-
-  }
-
-  .text-cover-content{
-    background-color: $secundaryColor;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid black;
-    width: 50%;
-    border-radius: 25rem 0rem 0rem 25rem;
+    justify-content: start;
+    padding: 0.5rem 3rem;
+    background-color: $primaryColor;
     color: #FFFFFF;
-    @media(max-width:710px){
-      width: 100%;
-      border-radius: 0;
+  
+    @media(max-width:900px){
+      justify-content: center;
     }
-
-      .teste{
-        font-size: 1.75rem;
-
-        @media(max-width: 367px){
-          font-size: 1.1rem;
+  
+    h1{
+      @media(max-width: 346px){
+        font-size: 1.39rem;
+      }
+      @media(max-width: 300px){
+        font-size: 1.25rem;
+      }
+    }
+  
+  }
+  
+  .cover-content{
+    display: flex;
+    width: 100%;
+    background-color: $primaryColor;
+    @media(max-width:710px){
+      flex-direction: column;
+    }
+    .image-cover-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100%;
+      @media(max-width:710px){
+        width: 100%;
+      }
+  
+      img{
+        @media(max-width:900px){
+          width: 100%;
+        }
+        @media(max-width:710px){
+          width: 500px;
+        }
+        @media(max-width:500px){
+          width: 100%;
         }
       }
-      @media(max-width: 300px){
-        font-size: 1.2rem;
+  
+    }
+  
+    .text-cover-content{
+      background-color: $secundaryColor;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      border-radius: 25rem 0rem 0rem 25rem;
+      color: #FFFFFF;
+      @media(max-width:710px){
+        width: 100%;
+        border-radius: 0;
+      }
+  
+        .teste{
+          font-size: 1.75rem;
+  
+          @media(max-width: 367px){
+            font-size: 1.1rem;
+          }
+        }
+        @media(max-width: 300px){
+          font-size: 1.2rem;
+        }
+      }
+      
+      #btn{
+        background: none;
+        padding: 1rem;
+        width: 8rem;
+        border-radius: 2rem;
+        border: 2px solid #FFFFFF;
+        color: #ffffff;
+        font-weight: 500;
+        margin-top: 2rem;
+  
+        @media(max-width: 700px){
+          margin-top: 0.5rem;
+        }
+  
+        @media(max-width: 500px){
+          padding: 0.3rem;
+          width: 6rem;
+        }
+        @media(max-width: 300px){
+          padding: 0.3rem 0rem 1rem 0rem;
+          width: 6rem;
+          font-size: 0.9rem;
+          width: 5.3rem;
+        }
+      }
+      .whatsapp-container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        position: fixed;
+        top: 85%;
+        right: 0;
+        width: 8rem;
+        padding: 0rem 3rem;
+        @media(max-width:710px){
+          padding: 0rem 0.5rem;
+        }
+        .bi-whatsapp{
+          font-size: 3.5rem;
+          color: black;
+          @media(max-width:710px){
+            font-size: 2rem;
+          }
+        }
       }
     }
-    
-    #btn{
-      background: none;
-      padding: 1rem;
-      width: 8rem;
-      border-radius: 2rem;
-      border: 2px solid #FFFFFF;
-      color: #ffffff;
-      font-weight: 500;
-      margin-top: 2rem;
 
-      @media(max-width: 700px){
-        margin-top: 0.5rem;
+    main{
+
+      .menu{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem;
+        .food{
+          display: flex;
+          gap: 
+          2rem;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          padding: 2rem;
+          border: 2px solid black;
+
+          .card-food{
+            border: 2px solid black;
+            width: 250px;
+            height: 250px;
+
+          }
+
+        }
+
       }
 
-      @media(max-width: 500px){
-        padding: 0.3rem;
-        width: 6rem;
-      }
-      @media(max-width: 300px){
-        padding: 0.3rem;
-        width: 6rem;
-        font-size: 0.9rem;
-        width: 5.3rem;
-      }
     }
 
-  }
+}
 

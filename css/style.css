@@ -9,9 +9,7 @@
   margin: 0;
   padding: 0;
 }
-
-header {
-  border: 2px solid black;
+.container-fluid header {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -20,90 +18,87 @@ header {
   color: #FFFFFF;
 }
 @media (max-width: 900px) {
-  header {
+  .container-fluid header {
     justify-content: center;
   }
 }
 @media (max-width: 346px) {
-  header h1 {
+  .container-fluid header h1 {
     font-size: 1.39rem;
   }
 }
 @media (max-width: 300px) {
-  header h1 {
+  .container-fluid header h1 {
     font-size: 1.25rem;
   }
 }
-
-.cover-content {
+.container-fluid .cover-content {
   display: flex;
   width: 100%;
   background-color: #38150D;
 }
 @media (max-width: 710px) {
-  .cover-content {
+  .container-fluid .cover-content {
     flex-direction: column;
   }
 }
-.cover-content .image-cover-content {
+.container-fluid .cover-content .image-cover-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid red;
   width: 50%;
   height: 100%;
 }
 @media (max-width: 710px) {
-  .cover-content .image-cover-content {
+  .container-fluid .cover-content .image-cover-content {
     width: 100%;
   }
 }
 @media (max-width: 900px) {
-  .cover-content .image-cover-content img {
+  .container-fluid .cover-content .image-cover-content img {
     width: 100%;
   }
 }
 @media (max-width: 710px) {
-  .cover-content .image-cover-content img {
+  .container-fluid .cover-content .image-cover-content img {
     width: 500px;
   }
 }
 @media (max-width: 500px) {
-  .cover-content .image-cover-content img {
+  .container-fluid .cover-content .image-cover-content img {
     width: 100%;
   }
 }
-.cover-content .text-cover-content {
+.container-fluid .cover-content .text-cover-content {
   background-color: #8F4515;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 2px solid black;
   width: 50%;
   border-radius: 25rem 0rem 0rem 25rem;
   color: #FFFFFF;
 }
 @media (max-width: 710px) {
-  .cover-content .text-cover-content {
+  .container-fluid .cover-content .text-cover-content {
     width: 100%;
     border-radius: 0;
   }
 }
-.cover-content .text-cover-content .teste {
+.container-fluid .cover-content .text-cover-content .teste {
   font-size: 1.75rem;
 }
 @media (max-width: 367px) {
-  .cover-content .text-cover-content .teste {
+  .container-fluid .cover-content .text-cover-content .teste {
     font-size: 1.1rem;
   }
 }
 @media (max-width: 300px) {
-  .cover-content .text-cover-content {
+  .container-fluid .cover-content .text-cover-content {
     font-size: 1.2rem;
   }
 }
-.cover-content #btn {
+.container-fluid .cover-content #btn {
   background: none;
   padding: 1rem;
   width: 8rem;
@@ -114,23 +109,67 @@ header {
   margin-top: 2rem;
 }
 @media (max-width: 700px) {
-  .cover-content #btn {
+  .container-fluid .cover-content #btn {
     margin-top: 0.5rem;
   }
 }
 @media (max-width: 500px) {
-  .cover-content #btn {
+  .container-fluid .cover-content #btn {
     padding: 0.3rem;
     width: 6rem;
   }
 }
 @media (max-width: 300px) {
-  .cover-content #btn {
-    padding: 0.3rem;
+  .container-fluid .cover-content #btn {
+    padding: 0.3rem 0rem 1rem 0rem;
     width: 6rem;
     font-size: 0.9rem;
     width: 5.3rem;
   }
+}
+.container-fluid .cover-content .whatsapp-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  top: 85%;
+  right: 0;
+  width: 8rem;
+  padding: 0rem 3rem;
+}
+@media (max-width: 710px) {
+  .container-fluid .cover-content .whatsapp-container {
+    padding: 0rem 0.5rem;
+  }
+}
+.container-fluid .cover-content .whatsapp-container .bi-whatsapp {
+  font-size: 3.5rem;
+  color: black;
+}
+@media (max-width: 710px) {
+  .container-fluid .cover-content .whatsapp-container .bi-whatsapp {
+    font-size: 2rem;
+  }
+}
+.container-fluid main .menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.container-fluid main .menu .food {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 2px solid black;
+}
+.container-fluid main .menu .food .card-food {
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
 }
 
 /*# sourceMappingURL=style.css.map */
