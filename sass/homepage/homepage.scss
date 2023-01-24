@@ -85,9 +85,8 @@ header{
       border-radius: 0;
     }
 
-    h3{
-      @media(max-width: 330px){
-        font-size: 1.3rem;
+      .teste{
+        font-size: 2rem;
       }
       @media(max-width: 300px){
         font-size: 1.2rem;
@@ -117,4 +116,3 @@ header{
 
   }
 
-}
