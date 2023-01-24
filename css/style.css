@@ -302,7 +302,7 @@ a:hover {
 .container-fluid aside p {
   font-size: 1.2rem;
 }
-@media (max-width: 303px) {
+@media (max-width: 400px) {
   .container-fluid aside p {
     font-size: 1rem;
   }
@@ -310,7 +310,7 @@ a:hover {
 .container-fluid aside #kn {
   font-size: 1rem;
 }
-@media (max-width: 303px) {
+@media (max-width: 400px) {
   .container-fluid aside #kn {
     font-size: 0.8rem;
   }
@@ -335,7 +335,7 @@ a:hover {
 .container-fluid aside footer .social-network #contact-email {
   font-size: 1.3rem;
 }
-@media (max-width: 303px) {
+@media (max-width: 400px) {
   .container-fluid aside footer .social-network #contact-email {
     font-size: 1.1rem;
   }
