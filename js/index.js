@@ -1,24 +1,24 @@
 
 const h3=document.getElementById("title-cover-content");
 
-function write(text, count){
+var text = "JavaScript é muito bom!"
+var interval = 200;
 
-  if(count<text.length){
+function showtext(h3, text, interval) {
 
-    setTimeout(()=>{
-
-      h3.textContent+=text.charAt(count);
-      count++;
-
-      write(text, count)
-
-    },100)
-
-  }else{
-    h3.textContent="";
-    write("A melhor feijoada do Estado",0);
-  }
-
+  var char = text.split("").reverse();
+  
+  var typer = setInterval(function() {
+  
+    if (!char.length) {
+        return clearInterval(typer)
+    }
+    
+    var next = char.pop();
+    
+    el.innerHTML += next;
+    
+  }, interval);
+  
 }
-
-write("A melhor feijoada do Estado",0);
+showtext(h3, text, interval);
