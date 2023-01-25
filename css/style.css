@@ -327,7 +327,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     gap: 0rem;
-    border: 2px solid rgb(90, 16, 121);
+    border: 2px solid red;
   }
 }
 .container-fluid aside footer .social-network {
