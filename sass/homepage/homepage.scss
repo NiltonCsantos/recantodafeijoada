@@ -310,13 +310,15 @@ a{
       p{
         font-size: 1.2rem;
         @media(max-width:400px){
-          font-size: 1rem;
+          font-size: 0.95rem;
+          border: 2px solid black;
         }
       }
       #kn{
         font-size: 1rem;
         @media(max-width:400px){
-          font-size: 0.8rem;
+          font-size: 0.85rem;
+          border: 2px solid rgb(148, 65, 65);
         }
       }
      
@@ -329,17 +331,20 @@ a{
           flex-direction: column;
           justify-content: center;
           gap:0rem;
+          border: 2px solid rgb(90, 16, 121);
         }
 
         .social-network{
           display: flex;
           flex-wrap: wrap;
           gap: 1rem;
+          border: 2px solid yellow;
 
           #contact-email{
             font-size: 1.3rem;
             @media(max-width:400px){
               font-size: 1.1rem;
+              border: 2px solid green;
             }
           }
         }

@@ -302,17 +302,19 @@ a:hover {
 .container-fluid aside p {
   font-size: 1.2rem;
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .container-fluid aside p {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    border: 2px solid black;
   }
 }
 .container-fluid aside #kn {
   font-size: 1rem;
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .container-fluid aside #kn {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
+    border: 2px solid rgb(148, 65, 65);
   }
 }
 .container-fluid aside footer {
@@ -320,24 +322,27 @@ a:hover {
   justify-content: space-between;
   gap: 5rem;
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .container-fluid aside footer {
     flex-direction: column;
     justify-content: center;
     gap: 0rem;
+    border: 2px solid rgb(90, 16, 121);
   }
 }
 .container-fluid aside footer .social-network {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  border: 2px solid yellow;
 }
 .container-fluid aside footer .social-network #contact-email {
   font-size: 1.3rem;
 }
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .container-fluid aside footer .social-network #contact-email {
     font-size: 1.1rem;
+    border: 2px solid green;
   }
 }
 
