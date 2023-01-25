@@ -307,18 +307,21 @@ a{
       justify-content: center;
       background-color: $primaryColor;
       color: #FFFFFF;
+      border: 2px solid #FFFFFF;
       p{
         font-size: 1.2rem;
-        @media(max-width:400px){
-          font-size: 0.95rem;
-          border: 2px solid black;
-        }
+        // width: 100%;
+        // @media(max-width:400px){
+        //   font-size: 1.2rem;
+        //   // border: 2px solid black;
+        // }
       }
       #kn{
         font-size: 1rem;
+        // width: 100%;
         @media(max-width:400px){
           font-size: 0.85rem;
-          border: 2px solid rgb(148, 65, 65);
+          // border: 2px solid rgb(148, 65, 65);
         }
       }
      
@@ -330,16 +333,20 @@ a{
         @media(max-width: 400px){
           flex-direction: column;
           justify-content: center;
+          width: 100%;
+          align-items: center ;
           gap:0rem;
           border: 2px solid rgb(90, 16, 121);
         }
 
         .social-network{
           display: flex;
+          justify-content: center;
+          align-items: center;
           flex-wrap: wrap;
           gap: 1rem;
-          border: 2px solid yellow;
-
+          // border: 2px solid yellow;
+          width: 100%;
           #contact-email{
             font-size: 1.3rem;
             @media(max-width:400px){
