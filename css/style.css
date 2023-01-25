@@ -315,12 +315,14 @@ a:hover {
   .container-fluid aside #kn {
     font-size: 0.85rem;
     border: 2px solid rgb(148, 65, 65);
+    Width:100%;
   }
 }
 .container-fluid aside footer {
   display: flex;
   justify-content: space-between;
   gap: 5rem;
+  Width:100%;
 }
 @media (max-width: 400px) {
   .container-fluid aside footer {
@@ -335,9 +337,11 @@ a:hover {
   flex-wrap: wrap;
   gap: 1rem;
   border: 2px solid yellow;
+  Width:100%;
 }
 .container-fluid aside footer .social-network #contact-email {
   font-size: 1.3rem;
+   Width:100%;
 }
 @media (max-width: 400px) {
   .container-fluid aside footer .social-network #contact-email {
