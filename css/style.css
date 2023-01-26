@@ -301,7 +301,6 @@ a:hover {
 }
 .container-fluid aside p {
   font-size: 1.3rem;
-  border: solid violet;
 }
 @media (max-width: 320px) {
   .container-fluid aside p {
@@ -320,13 +319,12 @@ a:hover {
   display: flex;
   justify-content: space-around;
   gap: 5rem;
-  width: 100%;
 }
 @media (max-width: 460px) {
   .container-fluid aside footer {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: flex-start;
     gap: 0rem;
   }
 }
